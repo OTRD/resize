@@ -113,6 +113,7 @@
         iframe.style.opacity = 0;
         iframe.style.top = 0;
         iframe.style.left = 0;
+        iframe.style.border = 0;
         computedStyle = window.getComputedStyle ? getComputedStyle(el) : el.currentStyle;
         isStatic = computedStyle.position === 'static' && el.style.position === '';
         isEmpty = computedStyle.position === '' && el.style.position === '';

@@ -115,6 +115,7 @@ class Main
       iframe.style.opacity    = 0
       iframe.style.top        = 0
       iframe.style.left       = 0
+      iframe.style.border     = 0
 
       computedStyle = if window.getComputedStyle
         getComputedStyle(el)
